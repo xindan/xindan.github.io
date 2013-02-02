@@ -5,12 +5,14 @@
 	<title>{{ page.title }} | {{ site.title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="xindan, xindan wang, x wang, xindanwang, xwang">
-	<meta name="google-site-verification" content="LJGYqZ08e9tLsvGKn5xNoA8S2vcSi7CErrA1jlovOq0">
 	<link rel="stylesheet" href="/media/css/screen.css" media="all">
 	<link rel="stylesheet" href="/media/css/slider.css" media="screen">
 	<link rel="stylesheet" href="/media/css/mobile.css" media="screen">
 	<link rel="stylesheet" href="/media/css/print.css" media="print">
 	<link href="/media/images/favicon.gif" rel="shortcut icon" type="image/gif">
+	{% if page.class == 'home' %}
+	<meta name="google-site-verification" content="LJGYqZ08e9tLsvGKn5xNoA8S2vcSi7CErrA1jlovOq0">
+	{% endif %}
 	{% if page.class == 'gallery' %}
 	<script src="/media/js/jquery.js"></script>
 	<script src="/media/js/slider.js"></script>
@@ -41,7 +43,7 @@
 			<div class="line"></div>
 			<ul>
 				<li class="copy">
-					&copy; 2006-2012 <a href="/">wangxindan.com</a>
+					&copy; 2006-2013 <a href="/">wangxindan.com</a>
 				</li>
 			</ul>
 		</div>
@@ -50,14 +52,18 @@
 </div>
 
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9267015-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-9267015-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
 
 </body>
 </html>
