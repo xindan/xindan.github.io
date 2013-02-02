@@ -273,8 +273,9 @@ body.about #nav li.about a {
 }
 
 body.research #foot .line,
-body.pub  #foot .line,
-body.gallery  #foot .line {
+body.pub #foot .line,
+body.gallery #foot .line,
+body.error #foot .line {
 	display: none;
 }
 
