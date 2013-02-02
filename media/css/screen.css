@@ -272,6 +272,12 @@ body.about #nav li.about a {
 	color: #FF5C89;
 }
 
+body.research #foot .line,
+body.pub  #foot .line,
+body.gallery  #foot .line {
+	display: none;
+}
+
 /* Home
 -------------------------------------------------- */
 #spec {
