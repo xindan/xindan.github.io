@@ -1,16 +1,14 @@
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
+
 title: xindan's little world
 url: wangxindan.com
-
 
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
 
-permalink: /:year/:month/:day/:title
-auto: true
 pygments: true
 markdown: kramdown
-
+permalink: /:year/:month/:day/:title
