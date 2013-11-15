@@ -1,14 +1,5 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
 title: xindan's little world
 url: wangxindan.com
-
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
-
 pygments: true
 markdown: redcarpet
 permalink: /:year/:month/:day/:title
