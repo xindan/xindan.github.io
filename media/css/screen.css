@@ -431,10 +431,10 @@ body.gallery #main-content {
 	background-image: url(../images/icon_fax.gif);
 }
 
-#contact dd.email {
+#contact dd.eml {
 	background-image: url(../images/icon_email.gif);
 }
 
-#contact dl.address dd {
+#contact dl.adr dd {
 	padding-left: 0;
 }
