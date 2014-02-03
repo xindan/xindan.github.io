@@ -11,13 +11,11 @@
 	<link rel="stylesheet" href="/media/css/mobile.css" media="screen">
 	<link rel="stylesheet" href="/media/css/print.css" media="print">
 	<link rel="icon" href="/media/images/favicon.gif" type="image/gif">
-	{% if page.class == 'home' %}
-	<meta name="google-site-verification" content="LJGYqZ08e9tLsvGKn5xNoA8S2vcSi7CErrA1jlovOq0">
-	{% elseif page.class == 'gallery' %}
+	{% if page.class == 'gallery' %}
 	<script src="/media/js/jquery.js"></script>
 	<script src="/media/js/slider.js"></script>
 	<script src="/media/js/gallery.js"></script>
-	{% elseif page.class == 'about' %}
+	{% else if page.class == 'about' %}
 	<script src="/media/js/jquery.js"></script>
 	<script src="/media/js/email.js"></script>
 	<script src="/media/js/about.js"></script>
