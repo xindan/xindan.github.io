@@ -359,8 +359,12 @@ body.pub #main-content ul li p a.abs {
 	background-image: url(../images/icon_abs.gif);
 }
 
-body.pub #main-content ul li p a.cover {
+body.pub #main-content ul li p a.cov {
 	background-image: url(../images/icon_cover.gif);
+}
+
+body.pub #main-content ul li p a.hig {
+	background-image: url(../images/icon_high.gif);
 }
 
 body.pub #main-content ul li p a.pdf {
