@@ -1,5 +1,5 @@
 title: xindan's little world
 url: wangxindan.com
-pygments: true
+highlighter: rouge
 markdown: redcarpet
 permalink: /:year/:month/:day/:title
