@@ -33,9 +33,9 @@
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
-/* 	border:  5px solid #fff; */
-/* 	left: -5px; */
-/* 	background: #fff; */
+	/* border:  5px solid #fff; */
+	/* left: -5px; */
+	/* background: #fff; */
 	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -84,21 +84,21 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+	background: #999;
 	text-indent: -9999px;
 	display: block;
 	width: 8px;
 	height: 8px;
 	margin: 0 5px;
 	outline: 0;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: #222;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
