@@ -122,9 +122,5 @@ RZ
 		clear: both;
 		display: block;
 	}
-	
-	body.gallery #main-content {
-		padding: 0;
-	}
 
 }
