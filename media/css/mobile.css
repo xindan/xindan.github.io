@@ -126,15 +126,5 @@ RZ
 	body.gallery #main-content {
 		padding: 0;
 	}
-	
-	#gallery {
-		width: 100% !important;
-	}
-	
-	#gallery img {
-		width: 100% !important;
-		height: auto !important;
-		margin-bottom: 5px;
-	}
 
 }

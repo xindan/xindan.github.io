@@ -1,4 +1,7 @@
-
-if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {}
-	else { $(function() { $('#gallery').nivoSlider(); });
-};
+jQuery(function($) {
+	$('#gallery').bxSlider({
+		'slideWidth': 588,
+		'mode': 'fade',
+		'controls': false
+	});
+});
