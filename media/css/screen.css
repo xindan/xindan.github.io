@@ -393,6 +393,14 @@ body.gallery #main-content {
 	padding-bottom: 50px;
 }
 
+#gallery {
+	list-style: none;
+}
+
+#gallery li {
+	margin: 0;
+}
+
 /* About
 -------------------------------------------------- */
 #contact {
