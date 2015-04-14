@@ -82,13 +82,13 @@
 	background: #999;
 	text-indent: -9999px;
 	display: block;
-	width: 10px;
-	height: 10px;
+	width: 8px;
+	height: 8px;
 	margin: 0 5px;
 	outline: 0;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
