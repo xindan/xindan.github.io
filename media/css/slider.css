@@ -33,7 +33,8 @@ ul.bxslider {
 .bx-viewport {
   /*fix other elements on the page moving (on Chrome)*/
   -webkit-transform: translatez(0);
-  height: auto !important;
+  width: 588px;
+  height: 322px;
 }
 /** THEME
 ===================================*/
