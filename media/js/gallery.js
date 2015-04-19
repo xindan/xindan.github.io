@@ -1,6 +1,7 @@
 jQuery(function($) {
-	$('#gallery').bxSlider({
-		'slideWidth': 588,
-		'controls': false
+	$('.flexslider').flexslider({
+		'animation': 'slide',
+		'directionNav': false,
+		'slideshow': false
 	});
 });
