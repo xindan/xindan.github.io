@@ -122,5 +122,9 @@ RZ
 		clear: both;
 		display: block;
 	}
+	
+	.flex-control-nav li {
+		margin: 0 4px;
+	}
 
 }

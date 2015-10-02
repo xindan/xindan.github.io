@@ -7,6 +7,10 @@ RZ
 
 /* Basic
 -------------------------------------------------- */
+	
+	.flex-control-nav li {
+		margin: 0 4px;
+	}
 * {
 	margin: 0;
 	padding: 0;
