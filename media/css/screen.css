@@ -340,6 +340,10 @@ body.blog #foot .line {
 
 /* Pub
 -------------------------------------------------- */
+body.pub #main-content .note {
+	color: #666;
+}
+
 body.pub #main-content ul li {
 	margin-bottom: 20px;
 	line-height: 160%;
