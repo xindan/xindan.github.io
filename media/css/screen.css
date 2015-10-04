@@ -7,10 +7,6 @@ RZ
 
 /* Basic
 -------------------------------------------------- */
-	
-	.flex-control-nav li {
-		margin: 0 4px;
-	}
 * {
 	margin: 0;
 	padding: 0;
@@ -319,7 +315,8 @@ body.blog #foot .line {
 #world li {
 	float: left;
 	width: 45%;
-	margin: 0 10% 3.5% 0;
+	margin: 0 9.5% 3.5% 0;
+	overflow: hidden;
 }
 
 #world li.last {
@@ -362,8 +359,8 @@ body.pub #main-content ul li p {
 
 body.pub #main-content ul li p a {
 	color: #666;
-	padding: 1px 0 2px 17px;
-	background-position: 0 2px;
+	padding: 0 0 2px 16px;
+	background-position: 0 0;
 	background-repeat: no-repeat;
 	margin-right: 10px;
 	border: 0;
@@ -383,6 +380,7 @@ body.pub #main-content ul li p a.hig {
 
 body.pub #main-content ul li p a.pdf {
 	background-image: url(../images/icon_pdf.gif);
+	padding-left: 19px;
 }
 
 body.pub #main-content ul li p a:hover {

@@ -123,9 +123,15 @@ RZ
 		display: block;
 	}
 	
-	#content #world li {
-		margin-bottom: 10px;
-		overflow: hidden;
+	#world li.row1,
+	#world li.row2 {
+		margin-bottom: 12px;
+	}
+	
+	#world li img {
+		width: 70px;
+		height: auto;
+	}
 	
 	.flex-control-nav li {
 		margin: 0 4px;
