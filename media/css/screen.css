@@ -318,17 +318,22 @@ body.blog #foot .line {
 
 #world li {
 	float: left;
-	width: 42%;
-	margin: 0 15% 2.5% 0;
+	width: 45%;
+	margin: 0 10% 3.5% 0;
 }
 
 #world li.last {
 	margin-right: 0;
 }
 
+#world li.row2 {
+	margin-bottom: 2%;
+}
+
 #world li img {
 	float: left;
 	margin: 0 15px 0 0;
+	border-radius: 8px;
 }
 
 #world li p {
