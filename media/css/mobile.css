@@ -123,6 +123,10 @@ RZ
 		display: block;
 	}
 	
+	#content #world li {
+		margin-bottom: 10px;
+		overflow: hidden;
+	
 	.flex-control-nav li {
 		margin: 0 4px;
 	}
