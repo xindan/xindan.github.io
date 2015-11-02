@@ -1,7 +1,7 @@
 jQuery(function($) {
-	$('.flexslider').flexslider({
-		'animation': 'slide',
-		'directionNav': false,
-		'slideshow': false
-	});
+    $('.flexslider').flexslider({
+        'animation': 'slide',
+        'directionNav': false,
+        'slideshow': false
+    });
 });

@@ -1,5 +1,6 @@
-title: xindan's little world
-url: wangxindan.com
-highlighter: pygments
+name: xindan's little world
+url: http://wangxindan.com
+
 markdown: redcarpet
-permalink: /:year/:month/:day/:title
+highlighter: pygments
+permalink: pretty

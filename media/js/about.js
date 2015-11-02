@@ -1,3 +1,3 @@
 jQuery(function($) {
-	$('body').emailSpamProtection('email');
+    $('body').emailSpamProtection('email');
 });

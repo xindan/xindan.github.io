@@ -6,89 +6,89 @@ RZ
 */
 
 * {
-	float: none;
-	margin: 0;
-	padding: 0;
-	width: auto;
-	position: static !important;
-	text-indent: 0;
-	overflow: visible !important;
-	text-indent: 0 !important;
+    float: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    position: static !important;
+    text-indent: 0;
+    overflow: visible !important;
+    text-indent: 0 !important;
 }
 
 body {
-	font-size: 12px;
-	font-family: "Times New Roman",Georgia,Times,serif;
+    font-size: 12px;
+    font-family: "Times New Roman",Georgia,Times,serif;
 }
 
 a, a span {
-	border: 0 !important;
-	text-decoration: none !important;
-	color: #333 !important;
+    border: 0 !important;
+    text-decoration: none !important;
+    color: #333 !important;
 }
 
 #wrap {
-	width: 90%;
+    width: 90%;
 }
 
 #top, #nav, #main-top, #main-bot, #bot, #foot {
-	display: none;
+    display: none;
 }
 
 #head {
-	border-bottom: 1px solid #999;
-	padding: 0 0 10px;
-	height: 40px;
-	margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    padding: 0 0 10px;
+    height: 40px;
+    margin-bottom: 20px;
 }
 
 #logo {
-	text-indent: 0;
-	width: auto;
-	height: auto;
-	background: transparent none;
-	float: left;
+    text-indent: 0;
+    width: auto;
+    height: auto;
+    background: transparent none;
+    float: left;
 }
 
 #main-content ul li p a {
-	padding-left: 0 !important;
+    padding-left: 0 !important;
 }
 
 #main-content, #world, #contact {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #main-content {
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 body.pub #main-content ul li p {
-	display: none;
+    display: none;
 }
 
 #contact dt {
-	display: block;
-	width: 14%;
-	float: left;
-	clear: left;
+    display: block;
+    width: 14%;
+    float: left;
+    clear: left;
 }
 
 #contact dl.address dt {
-	display: none;
+    display: none;
 }
 
 #contact dt.name {
-	width: 0;
+    width: 0;
 }
 
 #contact dd {
-	padding: 0;
-	width: auto;
-	float: left;
-	width: 85%;
+    padding: 0;
+    width: auto;
+    float: left;
+    width: 85%;
 }
 
 #contact dd.name {
-	padding-left: 0;
+    padding-left: 0;
 }

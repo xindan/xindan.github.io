@@ -8,268 +8,268 @@ RZ
 /* Basic
 -------------------------------------------------- */
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 img, a img {
-	border: 0;
+    border: 0;
 }
 
 a {
-	color: #000;
-	text-decoration: none;
-	border-bottom: 1px dotted #999;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
 }
 
 a:hover {
-	color: #FF5C89;
-	text-decoration: none;
-	border-bottom: 0;
+    color: #FF5C89;
+    text-decoration: none;
+    border-bottom: 0;
 }
 
 p {
-	margin-bottom: 15px;
-	line-height: 1.65;
+    margin-bottom: 15px;
+    line-height: 1.65;
 }
 
 ul, ol, dl {
-	list-style: none;
+    list-style: none;
 }
 
 li, dt, dd {
-	list-style: none;
-	margin: 0 0 5px 0;
+    list-style: none;
+    margin: 0 0 5px 0;
 }
 
 body {
-	background-color: #fff;
-	font-size: .875em;
-	font-family: "georgia", "times new roman", "times", serif;
-	color: #222;
-	text-align: center;
+    background-color: #fff;
+    font-size: .875em;
+    font-family: "georgia", "times new roman", "times", serif;
+    color: #222;
+    text-align: center;
 }
 
 h1, h2, h3 {
-	font-weight: normal;
-	color: #333;
-	font-family: "lucida grande", "lucida sans unicode", "helvetica", sans-serif;
-	letter-spacing: -1px;
+    font-weight: normal;
+    color: #333;
+    font-family: "lucida grande", "lucida sans unicode", "helvetica", sans-serif;
+    letter-spacing: -1px;
 }
 
 h1 {
-	font-size: 2em;
-	margin-bottom: 0;
+    font-size: 2em;
+    margin-bottom: 0;
 }
 
 h2 {
-	font-size: 1.75em;
-	margin-bottom: 10px;
+    font-size: 1.75em;
+    margin-bottom: 10px;
 }
 
 h3 {
-	font-size: 1.5em;
-	margin-bottom: 10px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 /* Layout
 -------------------------------------------------- */
 #curtain {
-	height: 5px;
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background: url(../images/bg_curtain.gif) 0 0 repeat-x;
+    height: 5px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: url(../images/bg_curtain.gif) 0 0 repeat-x;
 }
 
 #wrap {
-	margin: 0 auto 25px;
-	text-align: left;
-	width: 668px;
+    margin: 0 auto 25px;
+    text-align: left;
+    width: 668px;
 }
 
 #wrap, #top, #mid, #bot {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 #top {
-	height: 115px;
-	background: url(../images/bg_top.gif) left bottom no-repeat;
+    height: 115px;
+    background: url(../images/bg_top.gif) left bottom no-repeat;
 }
 
 #mid {
-	height: 100%;
-	background: url(../images/bg_mid.gif) left top repeat-y;
-	padding: 10px;
+    height: 100%;
+    background: url(../images/bg_mid.gif) left top repeat-y;
+    padding: 10px;
 }
 
 #bot {
-	height: 10px;
-	background: url(../images/bg_bot.gif) left top no-repeat;
+    height: 10px;
+    background: url(../images/bg_bot.gif) left top no-repeat;
 }
 
 #head {
-	padding: 7px 19px 14px 29px;
-	overflow: hidden;
-	background: url(../images/head_bg.gif) 150px 40px no-repeat;
+    padding: 7px 19px 14px 29px;
+    overflow: hidden;
+    background: url(../images/head_bg.gif) 150px 40px no-repeat;
 }
 
 #logo {
-	float: right;
-	border: 0;
-	height: 50px;
-	width: 150px;
-	display: block;
-	background: url(../images/logo.gif) 0 0 no-repeat;
-	text-indent: -9999px;
-	outline: 0;
+    float: right;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    display: block;
+    background: url(../images/logo.gif) 0 0 no-repeat;
+    text-indent: -9999px;
+    outline: 0;
 }
 
 /* Nav
 -------------------------------------------------- */
 #nav {
-	padding: 7px 0 0;
-	overflow: hidden;
+    padding: 7px 0 0;
+    overflow: hidden;
 }
 
 #nav li {
-	float: left;
-	display: block;
-	margin: 0 15px 0 0;
+    float: left;
+    display: block;
+    margin: 0 15px 0 0;
 }
 
 #nav li a {
-	display: block;
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	height: 32px;
-	text-indent: -9999px;
-	outline: 0;
-	border: 0;
+    display: block;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 32px;
+    text-indent: -9999px;
+    outline: 0;
+    border: 0;
 }
 
 #nav li.home a {
-	background-image: url(../images/nav_home.gif);
-	width: 34px;
+    background-image: url(../images/nav_home.gif);
+    width: 34px;
 }
 
 #nav li.research a {
-	background-image: url(../images/nav_research.gif);
-	width: 50px;
+    background-image: url(../images/nav_research.gif);
+    width: 50px;
 }
 
 #nav li.pub a {
-	background-image: url(../images/nav_pub.gif);
-	width: 69px;
+    background-image: url(../images/nav_pub.gif);
+    width: 69px;
 }
 
 #nav li.gallery a {
-	background-image: url(../images/nav_gallery.gif);
-	width: 41px;
+    background-image: url(../images/nav_gallery.gif);
+    width: 41px;
 }
 
 #nav li.about a {
-	background-image: url(../images/nav_about.gif);
-	width: 35px;
+    background-image: url(../images/nav_about.gif);
+    width: 35px;
 }
 
 /* Hover */
 #nav li a:hover {
-	background-position: 0 -32px;
+    background-position: 0 -32px;
 }
 
 /* Active */
 body.home #nav li.home a {
-	background-position: 0 -32px;
+    background-position: 0 -32px;
 }
 
 body.research #nav li.research a {
-	background-position: 0 -32px;
+    background-position: 0 -32px;
 }
 
 body.pub #nav li.pub a {
-	background-position: 0 -32px;
+    background-position: 0 -32px;
 }
 
 body.gallery #nav li.gallery a {
-	background-position: 0 -32px;
+    background-position: 0 -32px;
 }
 
 body.about #nav li.about a {
-	background-position: 0 -32px;
+    background-position: 0 -32px;
 }
 
 /* Content
 -------------------------------------------------- */
 #content {
-	overflow: hidden;
-	clear: both;
+    overflow: hidden;
+    clear: both;
 }
 
 #main-top, #main-content, #main-bot {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 #main-top {
-	background: url(../images/main_top.gif) left bottom no-repeat;
-	height: 56px;
+    background: url(../images/main_top.gif) left bottom no-repeat;
+    height: 56px;
 }
 
 #main-content {
-	padding: 15px 28px;
-	margin: 0 1px;
-	background-color: #efefef;
+    padding: 15px 28px;
+    margin: 0 1px;
+    background-color: #efefef;
 }
 
 #main-bot {
-	background: url(../images/main_bot.gif) left top no-repeat;
-	height: 6px;
+    background: url(../images/main_bot.gif) left top no-repeat;
+    height: 6px;
 }
 
 /* Foot
 -------------------------------------------------- */
 .clear {
-	clear: both;
+    clear: both;
 }
 
 .line {
-	background: url(../images/line.gif) left top no-repeat;
-	height: 9px;
-	margin: 0 0 20px;
-	overflow: hidden;
+    background: url(../images/line.gif) left top no-repeat;
+    height: 9px;
+    margin: 0 0 20px;
+    overflow: hidden;
 }
 
 #foot {
-	clear: both;
-	padding: 29px 28px 15px;
-	margin: 0 1px;
-	font-size: .85em;
-	text-align: center;
-	font-family: "lucida grande", "lucida sans unicode", "helvetica", sans-serif;
+    clear: both;
+    padding: 29px 28px 15px;
+    margin: 0 1px;
+    font-size: .85em;
+    text-align: center;
+    font-family: "lucida grande", "lucida sans unicode", "helvetica", sans-serif;
 }
 
 #foot li {
-	color: #333;
+    color: #333;
 }
 
 #foot li.more {
-	font-size: .9em;
-	color: #555;
+    font-size: .9em;
+    color: #555;
 }
 
 #foot li.more a {
-	color: #555;
+    color: #555;
 }
 
 #foot li a {
-	border: 0;
-	color: #333;
+    border: 0;
+    color: #333;
 }
 
 #foot li a:hover {
-	color: #FF5C89;
+    color: #FF5C89;
 }
 
 body.research #foot .line,
@@ -277,179 +277,179 @@ body.pub #foot .line,
 body.gallery #foot .line,
 body.error #foot .line,
 body.blog #foot .line {
-	display: none;
+    display: none;
 }
 
 /* Home
 -------------------------------------------------- */
 #spec {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 #spec p {
-	font-size: 1em;
-	background: url(../images/spec.gif) no-repeat 0 0;
-	display: block;
-	height: 85px;
-	margin: 0;
-	overflow: hidden;
-	text-indent: -9999px;
+    font-size: 1em;
+    background: url(../images/spec.gif) no-repeat 0 0;
+    display: block;
+    height: 85px;
+    margin: 0;
+    overflow: hidden;
+    text-indent: -9999px;
 }
 
 #world {
-	clear: both;
-	margin: 12px 0 0;
-	padding: 22px 29px 0;
-	overflow: hidden;
+    clear: both;
+    margin: 12px 0 0;
+    padding: 22px 29px 0;
+    overflow: hidden;
 }
 
 #world h3 {
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #world ul {
-	width: 100%;
-	overflow: hidden;
+    width: 100%;
+    overflow: hidden;
 }
 
 #world li {
-	float: left;
-	width: 45%;
-	margin: 0 9.5% 3.5% 0;
-	overflow: hidden;
+    float: left;
+    width: 45%;
+    margin: 0 9.5% 3.5% 0;
+    overflow: hidden;
 }
 
 #world li.last {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 #world li.row2 {
-	margin-bottom: 2%;
+    margin-bottom: 2%;
 }
 
 #world li img {
-	float: left;
-	margin: 0 15px 0 0;
-	border-radius: 8px;
+    float: left;
+    margin: 0 15px 0 0;
+    border-radius: 8px;
 }
 
 #world li p {
-	margin-bottom: 0;
-	font-size: .9em;
-	line-height: 1.4;
-	padding-top: 5px;
+    margin-bottom: 0;
+    font-size: .9em;
+    line-height: 1.4;
+    padding-top: 5px;
 }
 
 /* Pub
 -------------------------------------------------- */
 body.pub #main-content .note {
-	color: #666;
+    color: #666;
 }
 
 body.pub #main-content ul li {
-	margin-bottom: 20px;
-	line-height: 160%;
+    margin-bottom: 20px;
+    line-height: 160%;
 }
 
 body.pub #main-content ul li p {
-	margin: 3px 0 0;
-	font-size: .9em;
-	color: #777;
+    margin: 3px 0 0;
+    font-size: .9em;
+    color: #777;
 }
 
 body.pub #main-content ul li p a {
-	color: #666;
-	padding: 0 0 2px 16px;
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	margin-right: 10px;
-	border: 0;
+    color: #666;
+    padding: 0 0 2px 16px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    border: 0;
 }
 
 body.pub #main-content ul li p a.abs {
-	background-image: url(../images/icon_abs.gif);
+    background-image: url(../images/icon_abs.gif);
 }
 
 body.pub #main-content ul li p a.cov {
-	background-image: url(../images/icon_cover.gif);
+    background-image: url(../images/icon_cover.gif);
 }
 
 body.pub #main-content ul li p a.hig {
-	background-image: url(../images/icon_high.gif);
+    background-image: url(../images/icon_high.gif);
 }
 
 body.pub #main-content ul li p a.pdf {
-	background-image: url(../images/icon_pdf.gif);
-	padding-left: 18px;
+    background-image: url(../images/icon_pdf.gif);
+    padding-left: 18px;
 }
 
 body.pub #main-content ul li p a:hover {
-	color: #FF5C89;
+    color: #FF5C89;
 }
 
 body.pub #main-content ul li p a span {
-	text-decoration: none;
-	border-bottom: 1px dotted #999;
-	font-size: .85em;
-	text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+    font-size: .85em;
+    text-transform: uppercase;
 }
 
 body.pub #main-content ul li p a:hover span {
-	text-decoration: none;
-	border-bottom: 0;
+    text-decoration: none;
+    border-bottom: 0;
 }
 
 /* Gallery
 -------------------------------------------------- */
 body.gallery #main-content {
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 /* About
 -------------------------------------------------- */
 #contact {
-	clear: both;
-	margin: 12px 0 0;
-	padding: 22px 29px 0;
-	overflow: hidden;
-	height: 100%;
+    clear: both;
+    margin: 12px 0 0;
+    padding: 22px 29px 0;
+    overflow: hidden;
+    height: 100%;
 }
 
 #contact dl {
-	width: 49%;
-	height: 100%;
-	float: left;
+    width: 49%;
+    height: 100%;
+    float: left;
 }
 
 #contact dt {
-	display: none;
+    display: none;
 }
 
 #contact dd {
-	width: 90%;
-	background-position: 0 5px;
-	background-repeat: no-repeat;
-	padding: 0 0 3px 22px;
+    width: 90%;
+    background-position: 0 5px;
+    background-repeat: no-repeat;
+    padding: 0 0 3px 22px;
 }
 
 #contact dd.name {
-	background-image: url(../images/icon_name.gif);
-	background-position: 0 1px;
-	padding-left: 23px;
+    background-image: url(../images/icon_name.gif);
+    background-position: 0 1px;
+    padding-left: 23px;
 }
 
 #contact dd.tel {
-	background-image: url(../images/icon_tel.gif);
+    background-image: url(../images/icon_tel.gif);
 }
 
 #contact dd.fax {
-	background-image: url(../images/icon_fax.gif);
+    background-image: url(../images/icon_fax.gif);
 }
 
 #contact dd.eml {
-	background-image: url(../images/icon_email.gif);
+    background-image: url(../images/icon_email.gif);
 }
 
 #contact dl.adr dd {
-	padding-left: 0;
+    padding-left: 0;
 }
