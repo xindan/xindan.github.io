@@ -66,3 +66,44 @@ a, a span {
 body.pub #main-content ul li p {
     display: none;
 }
+
+.flexslider {
+    margin-bottom: 0 !important;
+}
+
+.flex-viewport {
+    overflow: auto !important;
+    max-height: 99999px !important;
+    transition: none !important;
+    position: static !important;
+}
+
+.flex-viewport .slides {
+    width: auto !important;
+    transition: none !important;
+    transform: none !important;
+    font-size: 0 !important;
+}
+
+.flexslider .slides:after {
+    display: none !important;
+}
+
+.flexslider .slides > li {
+    font-size: 16px !important;
+    float: none !important;
+    display: inline-block !important;
+    width: 20% !important;
+    margin: 0 !important;
+}
+
+.flexslider .slides > li > img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+.flexslider .flex-control-paging,
+.flex-viewport .slides .clone {
+    display: none !important;
+}
