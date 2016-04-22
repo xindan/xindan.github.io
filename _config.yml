@@ -1,6 +1,6 @@
 name: xindan's little world
 url: http://wangxindan.com
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 permalink: pretty
