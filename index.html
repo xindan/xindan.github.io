@@ -1,36 +1,97 @@
----
-layout: page
-title: home
-class: home
----
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wang Lab</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/site.css">
+    <style>
+        html {
+            background-image: url('');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="home">
 
-<div id="main-top"></div>
-<div id="main-content">
-    <div id="spec">
-        <h2>Specialization</h2>
-        <p>I am a biologist fascinated by the beauty and complexity of the microscopic world. To a large degree, cells are like tiny black boxes. We are groping in an area that has not yet been fully illuminated. I hope I can let in a new thin beam of light to penetrate the box. And I am trying my best...</p>
+<header class="site-header">
+    <div class="container">
+        <div class="branding">
+            <a href="./">Wang Lab</a>
+        </div>
+        <span class="hamburger" id="hamburger"></span>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./research/">Research</a></li>
+                <li><a href="./members/">Members</a></li>
+                <li><a href="./publications/">Publications</a></li>
+                <li><a href="./training/">Training</a></li>
+                <li><a href="./contact/">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-</div>
-<div id="main-bot"></div>
+</header>
 
-<div id="world">
-    <h3>The little world's species</h3>
-    <ul>
-        <li class="row1 first">
-            <img src="media/images/home/t1.png" alt="">
-            <p>The left (green) and right (red) replication arms of the <i>E. coli</i> chromosome.</p>
-        </li>
-        <li class="row1 last">
-            <img src="media/images/home/t2.png" alt="">
-            <p>Different choreographies of the <i>E. coli</i> divisome components FtsZ (red) and FtsK (green).</p>
-        </li>
-        <li class="row2 first">
-            <img src="media/images/home/t3.png" alt="">
-            <p><i>B. subtilis</i> replication origin (green) and nucleoid (red) in vegetative growth.</p>
-        </li>
-        <li class="row2 last">
-            <img src="media/images/home/t4.png" alt="">
-            <p><i>B. subtilis</i> chromosome conformation capture (Hi-C) contact map.</p>
-        </li>
-    </ul>
-</div>
+<article class="site-content">
+
+    <div class="container">
+        <h1>Wang Lab at Indiana University</h1>
+    </div>
+
+</article>
+
+<footer class="site-footer">
+    <div class="container">
+        <ul class="footer-info">
+            <li>&copy; <span id="year"></span> Wang Lab</li>
+        </ul>
+        <ul class="footer-meta">
+            <li><a href="http://www.bio.indiana.edu/">Department of Biology</a></li>
+            <li><a href="http://www.indiana.edu/">Indiana University Bloomington</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script>
+    (function(e) {
+        var b = [
+            './assets/img/home/01.jpg',
+            './assets/img/home/02.jpg',
+            './assets/img/home/03.jpg',
+            './assets/img/home/04.jpg',
+            './assets/img/home/05.jpg',
+            './assets/img/home/06.jpg',
+            './assets/img/home/07.jpg',
+            './assets/img/home/08.jpg',
+            './assets/img/home/09.jpg',
+            './assets/img/home/10.jpg',
+            './assets/img/home/11.jpg',
+            './assets/img/home/12.jpg',
+            './assets/img/home/13.jpg',
+            './assets/img/home/14.jpg',
+            './assets/img/home/15.jpg',
+            './assets/img/home/16.jpg'
+        ];
+        var i = b[Math.floor(Math.random() * b.length)];
+        e.style.backgroundImage = 'url(' + i + ')';
+    })(document.documentElement);
+</script>
+
+<script src="./assets/js/prefixfree.js"></script>
+<script src="./assets/js/site.js"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-9267015-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>
