@@ -7,14 +7,6 @@
     <title>Wang Lab - Indiana University</title>
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/site.css">
-    <style>
-        html {
-            background-image: url('');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
 </head>
 <body class="home">
 
@@ -39,7 +31,29 @@
 <article class="site-content">
 
     <div class="container">
-        <h1>Wang Lab at Indiana University</h1>
+        <div class="home-wrapper">
+            <div class="home-heading">
+                <h1>Wang Lab at Indiana University</h1>
+            </div>
+            <div class="home-slider" id="home-slider">
+                <div class="home-slide" style="background-image: url('/assets/img/home/01.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/02.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/03.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/04.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/05.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/06.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/07.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/08.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/09.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/10.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/11.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/12.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/13.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/14.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/15.jpg');"></div>
+                <div class="home-slide" style="background-image: url('/assets/img/home/16.jpg');"></div>
+            </div>
+        </div>
     </div>
 
 </article>
@@ -56,33 +70,17 @@
     </div>
 </footer>
 
-<script>
-    (function(e) {
-        var b = [
-            '/assets/img/home/01.jpg',
-            '/assets/img/home/02.jpg',
-            '/assets/img/home/03.jpg',
-            '/assets/img/home/04.jpg',
-            '/assets/img/home/05.jpg',
-            '/assets/img/home/06.jpg',
-            '/assets/img/home/07.jpg',
-            '/assets/img/home/08.jpg',
-            '/assets/img/home/09.jpg',
-            '/assets/img/home/10.jpg',
-            '/assets/img/home/11.jpg',
-            '/assets/img/home/12.jpg',
-            '/assets/img/home/13.jpg',
-            '/assets/img/home/14.jpg',
-            '/assets/img/home/15.jpg',
-            '/assets/img/home/16.jpg'
-        ];
-        var i = b[Math.floor(Math.random() * b.length)];
-        e.style.backgroundImage = 'url(' + i + ')';
-    })(document.documentElement);
-</script>
-
 <script src="/assets/js/prefixfree.js"></script>
+<script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/bxslider.js"></script>
 <script src="/assets/js/site.js"></script>
+<script>
+    jQuery('#home-slider').bxSlider({
+        randomStart: true,
+        pager: false,
+        useCSS: false
+    });
+</script>
 
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
