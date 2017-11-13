@@ -405,11 +405,13 @@ img {
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color: #900;
 }
 
 .member-education {
     font-size: 16px;
     padding-left: 0;
+    margin-bottom: 10px;
 }
 
 .member-education li {
@@ -419,7 +421,6 @@ img {
 .member-education li:before {
     content: "\2022";
     margin-right: 5px;
-    color: #900;
 }
 
 .pub-heading {
