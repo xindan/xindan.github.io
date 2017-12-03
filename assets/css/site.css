@@ -269,17 +269,23 @@ img {
     color: #900;
 }
 
-/* Pages
+/* Home
 ---------------------------------------- */
 
 .home .site-header,
 .home .site-content,
 .home .site-footer {
+    background: transparent;
     color: #fff;
 }
 
-.home .site-header {
-    background: transparent;
+.home .site-header:before,
+.home .site-footer:before {
+    content: none;
+}
+
+.home .site-content {
+    margin: 0;
 }
 
 .home .navigation a,
@@ -302,7 +308,7 @@ img {
 }
 
 .home-heading {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     left: 50%;
     top: 50%;
@@ -377,6 +383,9 @@ img {
     right: 10px;
 }
 
+/* Member
+---------------------------------------- */
+
 .member-header {
     overflow: hidden;
     height: 0;
@@ -430,6 +439,9 @@ img {
     content: "\2022";
     margin-right: 5px;
 }
+
+/* Publications
+---------------------------------------- */
 
 .pub-heading {
     overflow: hidden;
@@ -490,8 +502,13 @@ img {
         display: block;
     }
 
+    .branding {
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+    }
+
     .branding img {
-        margin-top: 18px;
         width: 120px;
     }
 
