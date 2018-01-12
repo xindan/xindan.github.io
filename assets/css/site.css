@@ -473,6 +473,13 @@ img {
     text-transform: uppercase;
 }
 
+/* Contact
+---------------------------------------- */
+
+.email-address {
+    width: 163px;
+}
+
 /* Mobile
 ---------------------------------------- */
 
@@ -683,6 +690,10 @@ img {
 
     .pub-covers {
         display: none;
+    }
+
+    .email-address {
+        width: 143px;
     }
 
     .bx-prev,
