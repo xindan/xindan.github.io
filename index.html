@@ -34,7 +34,7 @@
         <div class="home-heading">
             <h1>Wang Lab at Indiana University</h1>
         </div>
-        <div class="home-slider" id="home-slider">
+        <div class="home-slider">
             <div class="home-slide" style="background-image: url('/assets/img/home/a.jpg');"></div>
             <div class="home-slide" style="background-image: url('/assets/img/home/b.jpg');"></div>
             <div class="home-slide" style="background-image: url('/assets/img/home/c.jpg');"></div>
@@ -74,11 +74,9 @@
 <script src="/assets/js/site.js"></script>
 
 <script>
-    jQuery('#home-slider').bxSlider({
-        randomStart: true,
-        pager: false,
-        useCSS: false
-    });
+    (function($){
+        $('.home-slider').bxSlider({randomStart: true, pager: false, useCSS: false});
+    })(jQuery);
 </script>
 
 <script>
