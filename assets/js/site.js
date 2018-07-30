@@ -1,8 +1,3 @@
-// Replace no-js class
-// (function(e) {
-//     e.className = e.className.replace(/\bno-js\b/, 'js')
-// })(document.documentElement);
-
 // Print current year
 (function(e) {
     e.appendChild(document.createTextNode(new Date().getFullYear()));
