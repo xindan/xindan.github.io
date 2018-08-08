@@ -440,6 +440,23 @@ img {
     margin-right: 5px;
 }
 
+.member-alumni {
+    text-align: center;
+}
+
+.member-alumni a {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 1px solid;
+}
+
+.member-alumni a:hover {
+    color: #333;
+}
+
 /* Publications
 ---------------------------------------- */
 
