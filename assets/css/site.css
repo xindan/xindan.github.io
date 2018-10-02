@@ -135,16 +135,13 @@ img {
 .content-header {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -5px;
     width: 320px;
 }
 
 .content-body {
     padding-left: 400px;
     margin-bottom: 40px;
-}
-
-.content-body {
     min-height: 500px;
 }
 
@@ -405,11 +402,8 @@ img {
     left: 0;
     top: 0;
     width: 320px;
-}
-
-.member-photo {
     height: 320px;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 .member-name {
@@ -441,7 +435,7 @@ img {
 }
 
 .member-alumni {
-    text-align: center;
+    padding-left: 400px;
 }
 
 .member-alumni a {
@@ -676,6 +670,29 @@ img {
         background-image: url(../img/home/w2.png);
     }
 
+    .pub-heading {
+        overflow: visible;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .pub-covers {
+        display: none;
+    }
+
+    .email-address {
+        width: 145px;
+    }
+
+    .bx-prev,
+    .bx-next {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+
     .member-header {
         overflow: visible;
         height: auto;
@@ -699,23 +716,8 @@ img {
         margin-bottom: 20px;
     }
 
-    .pub-heading {
-        overflow: visible;
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    .pub-covers {
-        display: none;
-    }
-
-    .email-address {
-        width: 145px;
-    }
-
-    .bx-prev,
-    .bx-next {
-        display: none;
+    .member-alumni {
+        padding-left: 0;
     }
 
 }
