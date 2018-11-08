@@ -336,11 +336,6 @@ img {
     background-size: cover;
 }
 
-.bx-wrapper,
-.bx-viewport {
-    height: 100% !important;
-}
-
 .bx-controls {
     position: fixed;
     z-index: 2;
