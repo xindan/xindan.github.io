@@ -504,7 +504,7 @@ img {
     display: table;
 }
 
-.gallery-body .item {
+.gallery-item {
     float: left;
     width: 33.333333%;
     padding: 10px;
@@ -758,6 +758,20 @@ img {
 
     .member-alumni {
         padding-left: 0;
+    }
+
+    .gallery-header {
+        overflow: visible;
+        height: auto;
+    }
+
+    .decoration {
+        width: 32px;
+        height: 32px;
+    }
+
+    .gallery-item {
+        width: 50%;
     }
 
 }
