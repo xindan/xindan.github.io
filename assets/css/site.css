@@ -641,9 +641,10 @@ img {
     }
 
     .hamburger.active ~ .navigation {
-        height: 100%;
         overflow: auto;
+        height: 100%;
         opacity: 1;
+        transform: scale(1);
     }
 
     .navigation {
@@ -657,7 +658,8 @@ img {
         overflow: hidden;
         height: 0;
         opacity: 0;
-        transition: opacity .25s;
+        transform: scale(1.2);
+        transition: opacity .25s, transform .25s;
     }
 
     .navigation ul {
