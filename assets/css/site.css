@@ -386,7 +386,7 @@ img {
 .research-section {
     padding: 20px 20px 30px;
     margin-bottom: 40px;
-    border: 1px solid #666;
+    box-shadow: 0 0 20px #ddd;
     text-align: center;
 }
 
