@@ -304,7 +304,14 @@
     </div>
 </footer>
 
-<script src="/assets/js/site.js"></script>
+<script>
+    document.getElementById('year').innerHTML = new Date().getFullYear();
+
+    document.getElementById('hamburger').onclick = function() {
+        document.getElementById('hamburger').classList.toggle('active');
+        document.documentElement.classList.toggle('no-scroll');
+    }
+</script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9267015-1"></script>
 <script>
