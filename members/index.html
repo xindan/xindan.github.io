@@ -106,6 +106,12 @@
         document.getElementById('hamburger').classList.toggle('active');
         document.documentElement.classList.toggle('no-scroll');
     }
+
+    window.onpagehide = event => {
+        if (event.persisted) {
+            document.getElementById('hamburger').classList.remove('active');
+        }
+    }
 </script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9267015-1"></script>
