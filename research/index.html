@@ -94,6 +94,7 @@
     window.onpagehide = event => {
         if (event.persisted) {
             document.getElementById('hamburger').classList.remove('active');
+            document.documentElement.classList.remove('no-scroll');
         }
     }
 </script>
