@@ -806,21 +806,19 @@ img {
         height: 32px;
     }
 
-    /*
-    .gallery-item {
-        width: 50%;
-    }
+}
 
-    @supports (column-count: 2) {
+@media (max-width: 575px) {
+
+    @supports (column-count: auto) {
 
         .gallery-body {
-            column-count: 2;
+            column-count: auto;
         }
 
         .gallery-item {
-            width: auto;
+            display: block;
+            width: 100%;
         }
     }
-    */
-
 }
