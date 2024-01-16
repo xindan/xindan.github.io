@@ -575,37 +575,6 @@ u {
     width: 163px;
 }
 
-.skip-to-link {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    white-space: nowrap;
-    border: 0;
-}
-
-.skip-to-link:active,
-.skip-to-link:focus {
-    position: absolute;
-    width: auto;
-    height: auto;
-    padding: .5rem;
-    margin: 0;
-    overflow: visible;
-    clip: auto;
-    white-space: normal;
-    left: 0;
-    top: 0;
-    font-size: .875rem;
-    background-color: #900;
-    color: #fff;
-    z-index: 3;
-}
-
-
 /* Mobile
 ---------------------------------------- */
 
