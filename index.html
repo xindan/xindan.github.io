@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wang Lab - Indiana University</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css">
-    <link rel="stylesheet" href="/assets/css/site.css?v=4">
+    <link rel="stylesheet" href="/assets/css/site.css?v=5">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body class="home">
+
+<a class="skip-to-link" href="#main">Skip to main content</a>
 
 <header class="site-header">
     <div class="container">
         <div class="branding">
             <a href="/"><img src="/assets/img/logo/2.svg" alt="Wang Lab"></a>
         </div>
-        <span class="hamburger" id="hamburger"></span>
-        <nav class="navigation">
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation"></button>
+        <nav class="navigation" id="navigation">
             <ul>
                 <li><a href="/research/">Research</a></li>
                 <li><a href="/members/">Members</a></li>
@@ -30,13 +32,13 @@
     </div>
 </header>
 
-<article class="site-content">
+<main class="site-content" id="main">
 
     <div class="home-wrapper">
         <div class="home-heading">
             <h1>Wang Lab at Indiana University</h1>
         </div>
-        <div class="flickity-wrapper">
+        <div class="flickity-wrapper" aria-hidden="true">
             <div class="flickity-item" style="background-image: url('/assets/img/home/a.jpg');"></div>
             <div class="flickity-item" style="background-image: url('/assets/img/home/b.jpg');"></div>
             <div class="flickity-item" style="background-image: url('/assets/img/home/c.jpg');"></div>
@@ -56,7 +58,7 @@
         </div>
     </div>
 
-</article>
+</main>
 
 <footer class="site-footer">
     <div class="container">
@@ -65,7 +67,7 @@
         </ul>
         <ul class="footer-meta">
             <li><a href="https://biology.indiana.edu/">Department of Biology</a></li>
-            <li><a href="https://www.indiana.edu/">Indiana University Bloomington</a></li>
+            <li><a href="https://www.indiana.edu/">Indiana University</a></li>
         </ul>
     </div>
 </footer>
@@ -80,21 +82,7 @@
     });
 </script>
 
-<script>
-    document.getElementById('year').innerHTML = new Date().getFullYear();
-
-    document.getElementById('hamburger').onclick = function() {
-        document.getElementById('hamburger').classList.toggle('active');
-        document.documentElement.classList.toggle('no-scroll');
-    }
-
-    window.onpagehide = event => {
-        if (event.persisted) {
-            document.getElementById('hamburger').classList.remove('active');
-            document.documentElement.classList.remove('no-scroll');
-        }
-    }
-</script>
+<script src="/assets/js/main.js?v=1"></script>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9267015-1"></script>
 <script>
