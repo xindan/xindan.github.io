@@ -263,6 +263,11 @@ u {
 /* Home
 ---------------------------------------- */
 
+.home {
+    background-color: #000;
+    color: #fff;
+}
+
 .home .site-header,
 .home .site-content,
 .home .site-footer {
