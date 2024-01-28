@@ -583,10 +583,6 @@ u {
         font-size: 16px;
     }
 
-    body:before {
-        top: 60px;
-    }
-
     h1 {
         font-size: 28px;
     }
@@ -610,7 +606,7 @@ u {
     }
 
     .branding img {
-        width: 120px;
+        width: 112px;
     }
 
     html .hamburger {
@@ -659,16 +655,6 @@ u {
         background: #fff;
     }
 
-    .home .hamburger:before,
-    .home .hamburger:after {
-        background: #fff;
-    }
-
-    .home .hamburger.active:before,
-    .home .hamburger.active:after {
-        background: #222;
-    }
-
     .hamburger.active:before {
         transform: rotate(45deg);
         top: 19px;
@@ -684,6 +670,15 @@ u {
         height: 100%;
         opacity: 1;
         transform: scale(1);
+    }
+
+    .home .hamburger.active ~ .navigation {
+        background: #000;
+        color: #fff;
+    }
+
+    .home .hamburger.active ~ .navigation a {
+        color: inherit;
     }
 
     .navigation {
