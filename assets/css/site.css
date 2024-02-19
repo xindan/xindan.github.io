@@ -293,7 +293,7 @@ u {
 .home .navigation a:hover,
 .home .site-footer a:hover {
     color: inherit;
-    opacity: .75;
+    opacity: .7;
 }
 
 .home-wrapper {
@@ -359,7 +359,7 @@ u {
 .flickity-button:hover {
     text-decoration: none;
     border-bottom: 0;
-    opacity: .75;
+    opacity: .7;
     cursor: pointer;
 }
 
@@ -665,20 +665,26 @@ u {
         top: 19px;
     }
 
-    .hamburger.active ~ .navigation {
-        overflow: auto;
+    .navigation.show,
+    .navigation.hide {
         height: 100%;
+        overflow: auto;
+        visibility: visible;
+        transition: opacity .3s, transform .3s;
+    }
+
+    /* .navigation.show ul,
+    .navigation.hide ul {
+        transition: opacity .3s;
+    }
+
+    .navigation.hide ul {
+        opacity: 0;
+    } */
+
+    .navigation.show {
         opacity: 1;
         transform: scale(1);
-    }
-
-    .home .hamburger.active ~ .navigation {
-        background: #000;
-        color: #fff;
-    }
-
-    .home .hamburger.active ~ .navigation a {
-        color: inherit;
     }
 
     .navigation {
@@ -689,16 +695,17 @@ u {
         padding: 0;
         margin: 0;
         background: #fff;
+        color: inherit;
         overflow: hidden;
         height: 0;
         opacity: 0;
-        transform: scale(1.2);
-        transition: opacity .25s, transform .25s;
+        transform: scale(1.1);
         visibility: hidden;
     }
 
-    .no-scroll .navigation {
-        visibility: visible;
+    .home .navigation {
+        background: #000;
+        color: #fff;
     }
 
     .navigation ul {
@@ -728,6 +735,14 @@ u {
 
     .site-header .navigation a:hover {
         color: #900;
+    }
+
+    .home .site-header .navigation a {
+        color: inherit;
+    }
+
+    .home .site-header .navigation a:hover {
+        opacity: .7;
     }
 
     .navigation a:after {
