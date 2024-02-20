@@ -1,4 +1,8 @@
 (function() {
+    const hamburger = document.getElementById('hamburger');
+    const navigation = document.getElementById('navigation');
+    const year = document.getElementById('year');
+
     year.innerHTML = new Date().getFullYear();
 
     hamburger.onclick = function() {
