@@ -613,10 +613,6 @@ u {
         width: 112px;
     }
 
-    html .hamburger {
-        position: absolute !important;
-    }
-
     .hamburger {
         display: block;
         position: absolute;
