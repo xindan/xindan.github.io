@@ -275,6 +275,10 @@ u {
     color: #fff;
 }
 
+.home .site-footer {
+    position: fixed;
+}
+
 .home .site-header:before,
 .home .site-footer:before {
     content: none;
