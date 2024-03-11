@@ -665,6 +665,11 @@ u {
         top: 19px;
     }
 
+    .hamburger:focus-visible {
+        outline: 5px auto Highlight;
+        outline: 5px auto -webkit-focus-ring-color;
+    }
+
     .navigation.show,
     .navigation.hide {
         height: 100%;
