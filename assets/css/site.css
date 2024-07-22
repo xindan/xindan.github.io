@@ -145,7 +145,8 @@ u {
 }
 
 .site-content {
-    padding: 150px 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .content-header {
@@ -522,46 +523,26 @@ u {
     margin: 0;
 }
 
-.gallery-title {
-    position: relative;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
 .gallery-body {
-    margin: 0 -10px;
+    column-count: 3;
+    column-gap: 10px;
+    margin-bottom: 60px;
 }
 
-.gallery-body:after{
-    content: "";
-    display: table;
+.gallery-body:has(> .gallery-item:only-child) {
+    column-count: auto;
 }
 
 .gallery-item {
-    float: left;
-    width: 33.333333%;
-    padding: 10px;
+    margin-bottom: 10px;
 }
 
-@supports (column-count: 3) {
-
-    .gallery-body {
-        column-count: 3;
-        column-gap: 10px;
-        margin: 0;
-    }
-
-    .gallery-item {
-        display: inline-block;
-        float: none;
-        width: auto;
-        padding: 0;
-        margin-bottom: 10px;
-    }
-
+.gallery-title {
+    position: relative;
+    margin-bottom: 20px;
 }
 
-.decoration {
+.gallery-icon {
     position: absolute;
     transform: translate(10%, -50%);
     width: 48px;
@@ -678,15 +659,6 @@ u {
         transition: opacity .3s, transform .3s;
     }
 
-    /* .navigation.show ul,
-    .navigation.hide ul {
-        transition: opacity .3s;
-    }
-
-    .navigation.hide ul {
-        opacity: 0;
-    } */
-
     .navigation.show {
         opacity: 1;
         transform: scale(1);
@@ -755,12 +727,14 @@ u {
     }
 
     .site-content {
-        padding: 90px 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .content-header {
         position: static;
         width: auto;
+        margin-bottom: 20px;
     }
 
     .content-body {
@@ -789,6 +763,10 @@ u {
 
     .flickity-button {
         display: none;
+    }
+
+    .member-photo {
+        margin-top: 7px;
     }
 
 }
@@ -836,15 +814,8 @@ u {
 
 @media (max-width: 575px) {
 
-    @supports (column-count: auto) {
-
-        .gallery-body {
-            column-count: auto;
-        }
-
-        .gallery-item {
-            display: block;
-            width: 100%;
-        }
+    .gallery-body {
+        column-count: auto;
     }
+
 }
