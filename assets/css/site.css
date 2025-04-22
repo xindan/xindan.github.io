@@ -513,6 +513,10 @@ u {
   text-transform: uppercase;
 }
 
+.pub-note span {
+  display: inline-block;
+}
+
 /* Gallery
 ---------------------------------------- */
 
