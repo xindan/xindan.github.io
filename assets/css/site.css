@@ -434,6 +434,38 @@ u {
   top: 0;
   width: 320px;
   height: 320px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translate(4px, 6px);
+    border: 1px solid #7950f2;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translate(-6px, -4px);
+    border: 1px solid #fa5252;
+  }
+}
+
+.member-item:nth-of-type(2n) {
+  .member-photo {
+    &::before {
+      border-color: #f76707;
+    }
+    &::after {
+      border-color: #0ca678;
+    }
+  }
+}
+
+.member-image {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -768,7 +800,7 @@ u {
   }
 
   .member-photo {
-    margin-top: 7px;
+    margin-top: 8px;
   }
 
 }
@@ -791,11 +823,15 @@ u {
   }
 
   .member-photo {
-    position: static;
+    position: relative;
     width: auto;
     height: auto;
-    overflow: auto;
-    margin-bottom: 20px;
+  }
+
+  .member-image {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
   }
 
   .member-alumni {
