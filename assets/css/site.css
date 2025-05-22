@@ -183,10 +183,12 @@ u {
   z-index: 2;
   height: 80px;
   background: #fff;
+  transition: height .2s;
 }
 
 .branding img {
   width: 148px;
+  transition: width .2s;
 }
 
 .branding a:hover {
@@ -229,6 +231,14 @@ u {
 .navigation-checkbox,
 .hamburger {
   display: none;
+}
+
+.site-header.minify {
+  height: 56px;
+}
+
+.site-header.minify .branding img {
+  width: 124px;
 }
 
 /* Footer
@@ -611,7 +621,7 @@ u {
   }
 
   .site-header {
-    height: 60px;
+    height: 56px !important;
   }
 
   .site-header .container {
@@ -625,14 +635,14 @@ u {
   }
 
   .branding img {
-    width: 112px;
+    width: 112px !important;
   }
 
   .hamburger {
     display: block;
     position: absolute;
     right: 0;
-    top: 10px;
+    top: 8px;
     z-index: 3;
     width: 40px;
     height: 40px;

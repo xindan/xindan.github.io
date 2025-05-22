@@ -19,6 +19,15 @@
     document.body.classList.toggle('no-scroll');
   }
 
+  window.addEventListener('scroll', function () {
+    const header = document.querySelector('.site-header');
+    if (window.scrollY > 50) {
+      header.classList.add('minify');
+    } else {
+      header.classList.remove('minify');
+    }
+  });
+
   window.onpagehide = event => {
     if (event.persisted) {
       hamburger.classList.remove('active');
