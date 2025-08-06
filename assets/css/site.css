@@ -72,6 +72,10 @@ a {
   transition: color .25s;
 }
 
+a:visited {
+  color: #90f;
+}
+
 a:hover {
   border-bottom: 1px solid;
 }
@@ -542,12 +546,13 @@ u {
   margin-bottom: 0;
 }
 
-.pub-title {
-  margin-right: 10px;
+.pub-title,
+.pub-meta {
+  display: block;
 }
 
 .pub-meta a {
-  margin-left: 10px;
+  margin-right: 8px;
   font-size: 16px;
   font-style: normal;
   text-transform: uppercase;
