@@ -67,17 +67,18 @@ form, iframe, ol, p, pre, table, ul {
 }
 
 a {
-  color: #900;
+  color: #03c;
   text-decoration: none;
   transition: color .25s;
 }
 
 a:visited {
-  color: #90f;
+  color: #609;
 }
 
 a:hover {
-  border-bottom: 1px solid;
+  text-decoration: underline;
+  text-underline-offset: .2em;
 }
 
 figure {
@@ -223,6 +224,7 @@ u {
 .navigation a {
   display: block;
   padding: 10px;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -265,6 +267,7 @@ u {
 }
 
 .site-footer a {
+  text-decoration: none;
   color: inherit;
 }
 
@@ -491,7 +494,7 @@ u {
 .member-role {
   margin-bottom: 10px;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: .04em;
   text-transform: uppercase;
   color: #900;
 }
@@ -552,9 +555,10 @@ u {
 }
 
 .pub-meta a {
+  display: inline-block;
   margin-right: 8px;
   font-size: 16px;
-  font-style: normal;
+  letter-spacing: .02em;
   text-transform: uppercase;
 }
 
