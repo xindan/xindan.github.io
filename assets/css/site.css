@@ -562,8 +562,20 @@ u {
   text-transform: uppercase;
 }
 
-.pub-note span {
+.pub-note .item {
   display: inline-block;
+  margin-right: 8px;
+}
+
+.pub-note .symbol {
+  position: relative;
+  bottom: -.08em;
+}
+
+.pub-note .title {
+  font-size: 14px;
+  letter-spacing: .02em;
+  text-transform: uppercase;
 }
 
 /* Gallery
