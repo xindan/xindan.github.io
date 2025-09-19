@@ -841,12 +841,13 @@ u {
   .member-header {
     overflow: visible;
     height: auto;
+    margin-bottom: 20px;
   }
 
   .member-item {
     padding-left: 0;
     min-height: 0;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 
   .member-name {
