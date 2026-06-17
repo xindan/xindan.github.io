@@ -82,6 +82,7 @@
     var prevButton = carousel.querySelector('.embla__button--prev');
     var nextButton = carousel.querySelector('.embla__button--next');
     var embla = EmblaCarousel(viewport, {
+      loop: true,
       startIndex: Math.floor(Math.random() * slides.length)
     });
 
