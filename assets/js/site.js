@@ -7,7 +7,7 @@
 
   year.textContent = new Date().getFullYear();
 
-  hamburger.onclick = function() {
+  hamburger.addEventListener('click', function () {
     hamburger.classList.toggle('active');
     clearTimeout(hideTimer);
     if (!navigation.classList.contains('show')) {
@@ -16,12 +16,12 @@
     } else {
       navigation.classList.remove('show');
       navigation.classList.add('hide');
-      hideTimer = setTimeout(function() {
+      hideTimer = setTimeout(function () {
         navigation.classList.remove('hide');
       }, 300);
     }
     document.body.classList.toggle('no-scroll');
-  }
+  });
 
   window.addEventListener('resize', function () {
     clearTimeout(resizeTimer);
@@ -43,11 +43,11 @@
     }
   });
 
-  window.onpagehide = event => {
+  window.addEventListener('pagehide', function (event) {
     if (event.persisted) {
       hamburger.classList.remove('active');
       navigation.classList.remove('show', 'hide');
       document.body.classList.remove('no-scroll');
     }
-  }
+  });
 })();
