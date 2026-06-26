@@ -464,30 +464,6 @@ u {
   height: 320px;
 }
 
-.member-photo::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  transform: translate(4px, 6px);
-  border: 1px solid #7950f2;
-}
-
-.member-photo::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  transform: translate(-6px, -4px);
-  border: 1px solid #fa5252;
-}
-
-.member-item:nth-of-type(2n) .member-photo::before {
-  border-color: #f76707;
-}
-
-.member-item:nth-of-type(2n) .member-photo::after {
-  border-color: #0ca678;
-}
-
 .member-image {
   width: 100%;
   height: 100%;
