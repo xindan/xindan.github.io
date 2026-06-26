@@ -490,23 +490,6 @@ u {
   margin-bottom: 10px;
 }
 
-.member-alumni {
-  padding-left: 400px;
-}
-
-.member-alumni a {
-  display: inline-block;
-  font-size: 16px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 10px 30px;
-  border: 1px solid;
-}
-
-.member-alumni a:hover {
-  color: #333;
-}
-
 /* Publications
 ---------------------------------------- */
 
@@ -853,10 +836,6 @@ u {
     width: 100%;
     height: auto;
     object-fit: fill;
-  }
-
-  .member-alumni {
-    padding-left: 0;
   }
 
   .gallery-header {
