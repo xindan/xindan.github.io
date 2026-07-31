@@ -13,12 +13,14 @@
     if (!navigation.classList.contains('show')) {
       navigation.classList.remove('hide');
       navigation.classList.add('show');
+      hamburger.setAttribute('aria-expanded', 'true');
     } else {
       navigation.classList.remove('show');
       navigation.classList.add('hide');
+      hamburger.setAttribute('aria-expanded', 'false');
       hideTimer = setTimeout(function () {
         navigation.classList.remove('hide');
-      }, 300);
+      }, 200);
     }
     document.body.classList.toggle('no-scroll');
   });
@@ -30,6 +32,7 @@
         hamburger.classList.remove('active');
         navigation.classList.remove('show', 'hide');
         document.body.classList.remove('no-scroll');
+        hamburger.setAttribute('aria-expanded', 'false');
       }
     }, 150);
   });
