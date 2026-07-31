@@ -25,6 +25,20 @@
     document.body.classList.toggle('no-scroll');
   });
 
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape' && navigation.classList.contains('show')) {
+      navigation.classList.remove('show');
+      navigation.classList.add('hide');
+      hamburger.classList.remove('active');
+      hamburger.setAttribute('aria-expanded', 'false');
+      document.body.classList.remove('no-scroll');
+      clearTimeout(hideTimer);
+      hideTimer = setTimeout(function () {
+        navigation.classList.remove('hide');
+      }, 200);
+    }
+  });
+
   window.addEventListener('resize', function () {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(function () {
@@ -52,5 +66,15 @@
       navigation.classList.remove('show', 'hide');
       document.body.classList.remove('no-scroll');
     }
+  });
+
+  document.querySelectorAll('.gallery-item img').forEach(function (img) {
+    if (!img.getAttribute('alt')) {
+      img.setAttribute('alt', 'Gallery photo');
+    }
+  });
+
+  document.querySelectorAll('.gallery-icon').forEach(function (icon) {
+    icon.setAttribute('aria-hidden', 'true');
   });
 })();

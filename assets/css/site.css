@@ -68,7 +68,7 @@ form, iframe, ol, p, pre, table, ul {
 
 a {
   color: #03c;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color .2s;
 }
 
@@ -77,8 +77,7 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: underline;
-  text-underline-offset: .2em;
+  color: #900;
 }
 
 figure {
@@ -177,6 +176,13 @@ u {
   overflow: hidden;
 }
 
+.research-main img,
+.member-photo img,
+.pub-covers img,
+.gallery-item img {
+  border-radius: 20px;
+}
+
 /* Header
 ---------------------------------------- */
 
@@ -194,6 +200,10 @@ u {
 .branding img {
   width: 148px;
   transition: width .2s;
+}
+
+.branding a {
+  text-decoration: none;
 }
 
 .branding a:hover {
@@ -655,22 +665,21 @@ u {
     height: 1.5px;
     background: #222;
     left: 8px;
-    transition: transform .2s, top .2s, opacity .2s, width .2s;
+    width: 24px;
+    transition: transform .2s, opacity .2s, width .2s;
   }
 
   .hamburger .line:nth-child(1) {
-    width: 24px;
     top: 11px;
   }
 
   .hamburger .line:nth-child(2) {
-    width: 24px;
     top: 19px;
   }
 
   .hamburger .line:nth-child(3) {
-    width: 18px;
     top: 27px;
+    width: 18px;
   }
 
   .home .hamburger .line {
@@ -678,8 +687,7 @@ u {
   }
 
   .hamburger.active .line:nth-child(1) {
-    top: 19px;
-    transform: rotate(-45deg);
+    transform: translateY(8px) rotate(-45deg);
   }
 
   .hamburger.active .line:nth-child(2) {
@@ -687,8 +695,7 @@ u {
   }
 
   .hamburger.active .line:nth-child(3) {
-    top: 19px;
-    transform: rotate(45deg);
+    transform: translateY(-8px) rotate(45deg);
     width: 24px;
   }
 
