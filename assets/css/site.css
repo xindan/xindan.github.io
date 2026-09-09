@@ -358,7 +358,7 @@ u {
   width: 70%;
   height: 0;
   padding-bottom: 7%;
-  background: url(../img/home/w1.png) center / contain no-repeat;
+  background: url(../img/home/text/1.png) center / contain no-repeat;
   pointer-events: none;
 }
 
@@ -424,12 +424,12 @@ u {
 }
 
 .embla__button--prev {
-  background: transparent url("../img/home/aleft.png") center / contain no-repeat;
+  background: transparent url("../img/home/arrows/l.png") center / contain no-repeat;
   left: 10px;
 }
 
 .embla__button--next {
-  background: transparent url("../img/home/aright.png") center / contain no-repeat;
+  background: transparent url("../img/home/arrows/r.png") center / contain no-repeat;
   right: 10px;
 }
 
@@ -808,7 +808,7 @@ u {
   .home-heading {
     width: 76%;
     padding-bottom: 26%;
-    background-image: url(../img/home/w2.png);
+    background-image: url(../img/home/text/2.png);
   }
 
   .pub-heading {
