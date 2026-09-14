@@ -223,6 +223,7 @@ u {
 .branding svg {
   width: 148px;
   height: auto;
+  vertical-align: middle;
   transition: width .2s;
 }
 
