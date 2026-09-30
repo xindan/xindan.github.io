@@ -54,9 +54,9 @@
   window.addEventListener('scroll', function () {
     const header = document.querySelector('.site-header');
     if (window.scrollY > 50) {
-      header.classList.add('minify');
+      header.classList.add('condensed');
     } else {
-      header.classList.remove('minify');
+      header.classList.remove('condensed');
     }
   });
 

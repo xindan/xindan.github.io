@@ -210,17 +210,18 @@ u {
   transition: height .2s;
 }
 
-.branding a {
+.site-header .link {
+  display: block;
   text-decoration: none;
   color: inherit;
   transition: none;
 }
 
-.branding a:hover {
+.site-header .link:hover {
   border-bottom: 0;
 }
 
-.branding svg {
+.site-header .svg {
   width: 148px;
   height: auto;
   vertical-align: middle;
@@ -266,12 +267,12 @@ u {
   display: none;
 }
 
-.site-header.minify {
+.site-header.condensed {
   height: 56px;
 }
 
-.site-header.minify .branding svg {
-  width: 124px;
+.site-header.condensed .svg {
+  width: 112px;
 }
 
 /* Footer
@@ -637,20 +638,24 @@ u {
 
   .site-header {
     height: 56px !important;
+    transition: none !important;
   }
 
   .site-header .container {
     display: block;
-  }
-
-  .branding {
     height: 100%;
-    display: inline-flex;
-    align-items: center;
   }
 
-  .branding svg {
+  .logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .site-header .svg {
     width: 112px !important;
+    transition: none !important;
   }
 
   .hamburger {
