@@ -156,7 +156,6 @@ u {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: inherit;
 }
 
 .site-content {
@@ -210,27 +209,26 @@ u {
   transition: height .2s;
 }
 
-.site-header .link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  transition: none;
+.site-header .container {
+  height: 100%;
 }
 
-.site-header .link:hover {
-  border-bottom: 0;
+.site-header .link {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: inherit;
 }
 
 .site-header .svg {
   width: 148px;
   height: auto;
   vertical-align: middle;
-  transition: width .2s;
+  transition: width .1s;
 }
 
 .navigation {
   font-size: 17px;
-  text-align: right;
   visibility: visible;
 }
 
@@ -646,7 +644,7 @@ u {
     height: 100%;
   }
 
-  .logo {
+  .site-header .logo {
     position: absolute;
     left: 0;
     top: 50%;
